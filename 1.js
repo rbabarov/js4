@@ -10,7 +10,7 @@ function getPasswordChecker(password) {
     }
 }
 
-let user_1 = getPasswordChecker(12345);
-console.log(user_1("sdva"));
+let user_1 = getPasswordChecker(123456);
+console.log(user_1("qwerty"));
 console.log(user_1(665544));
-console.log(user_1(12345));
+console.log(user_1(123456));
